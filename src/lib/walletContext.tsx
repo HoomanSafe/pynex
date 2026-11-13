@@ -194,7 +194,7 @@ const DEFAULT_PASSKEY: PasskeyCredentialInfo = {
   label: 'MacBook / Biometric Passkey',
   createdAt: Date.now() - 86_400_000 * 4,
   rpId: 'pynex.app',
-  kernelAddress: '0x7a3f92c841e09b34a62d88f104e239a0554ec91e',
+  kernelAddress: 'TBD',
   hardwareBacked: false,
 };
 
