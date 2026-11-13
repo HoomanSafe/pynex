@@ -1,0 +1,135 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+:root {
+  color-scheme: light;
+  --desk: #f4f6f5;
+  --win: #ffffff;
+  --surface-1: #f7f9f8;
+  --surface-2: #ebf1ee;
+  --surface-3: #e0eae5;
+  --well: #f0f4f2;
+  --border: #dce3df;
+  --border-strong: #c2cdc7;
+  --hair: #e8eeeb;
+  --text: #141716;
+  --text-muted: #525d58;
+  --text-faint: #7b8681;
+  --accent: #0f9d6e;
+  --accent-deep: #0b7f58;
+  --accent-ink: #ffffff;
+  --accent-mint: #77fbca;
+  --accent-soft: rgba(15, 157, 110, 0.11);
+  --accent-line: rgba(15, 157, 110, 0.4);
+  --accent-text: #0b855c;
+  --good: #16a34a;
+  --good-text: #15803d;
+  --good-soft: rgba(22, 163, 74, 0.11);
+  --good-line: rgba(22, 163, 74, 0.35);
+  --bad: #dc2626;
+  --bad-text: #dc2626;
+  --bad-soft: rgba(220, 38, 38, 0.1);
+  --bad-line: rgba(220, 38, 38, 0.35);
+  --warn: #d97706;
+  --warn-text: #b45309;
+  --warn-soft: rgba(217, 119, 6, 0.12);
+  --warn-line: rgba(217, 119, 6, 0.35);
+  --bar-bg: rgba(244, 246, 245, 0.88);
+  --win-shadow: 0 1px 2px rgba(16, 24, 20, 0.05);
+  --pop-shadow: 0 20px 50px rgba(16, 24, 20, 0.16), 0 2px 6px rgba(16, 24, 20, 0.06);
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-body: "DM Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --desk: #1b1918;
+  --win: #23201f;
+  --surface-1: #2b2827;
+  --surface-2: #353130;
+  --surface-3: #3f3b39;
+  --well: #151312;
+  --border: #3d3837;
+  --border-strong: #524c4a;
+  --hair: #2e2a29;
+  --text: #f5f7f6;
+  --text-muted: #a6aba8;
+  --text-faint: #79807c;
+  --accent: #77fbca;
+  --accent-deep: #52e8b2;
+  --accent-ink: #12211b;
+  --accent-mint: #77fbca;
+  --accent-soft: rgba(119, 251, 202, 0.14);
+  --accent-line: rgba(119, 251, 202, 0.45);
+  --accent-text: #77fbca;
+  --good: #77fbca;
+  --good-text: #77fbca;
+  --good-soft: rgba(119, 251, 202, 0.13);
+  --good-line: rgba(119, 251, 202, 0.36);
+  --bad: #f87171;
+  --bad-text: #fca5a5;
+  --bad-soft: rgba(248, 113, 113, 0.14);
+  --bad-line: rgba(248, 113, 113, 0.38);
+  --warn: #fbbf24;
+  --warn-text: #fcd34d;
+  --warn-soft: rgba(251, 191, 36, 0.13);
+  --warn-line: rgba(251, 191, 36, 0.38);
+  --bar-bg: rgba(27, 25, 24, 0.88);
+  --win-shadow: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 12px 32px rgba(0, 0, 0, 0.42);
+  --pop-shadow: 0 24px 60px rgba(0, 0, 0, 0.65), 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--desk);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono,
+code,
+pre {
+  font-family: var(--font-mono);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 999px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

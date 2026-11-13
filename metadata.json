@@ -1,0 +1,6 @@
+{
+  "name": "PYNEX",
+  "description": "Your AI suggests the trade. You keep control. AI trading tools with owner control on Robinhood Chain and Elysium.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
