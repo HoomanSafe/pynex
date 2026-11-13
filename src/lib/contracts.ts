@@ -30,7 +30,7 @@ export interface ChainNetwork {
   };
 }
 
-export const PYNEX_TOKEN_CA: Address = '0xe061b8d68423a02c8a10bada7b3b8393953956ae';
+export const PYNEX_TOKEN_CA: Address = 'TBD';
 export const ENTRYPOINT_V07: Address = '0x0000000071727De22E5E9d8BAf0edAc6f37da032';
 export const PYNEX_X_URL = 'https://x.com/PynexAgent';
 export const HOLDER_MIN_PYNEX = 5_000_000;
