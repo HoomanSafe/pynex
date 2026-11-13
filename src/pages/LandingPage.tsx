@@ -432,7 +432,7 @@ export function LandingPage() {
             <div className="rounded-2xl border border-[var(--border)] bg-[var(--win)] p-4 space-y-3">
               <div className="flex items-center justify-between text-xs">
                 <span className="text-[var(--text-muted)]">Smart account</span>
-                <span className="font-mono text-[var(--accent-text)]">0x7a3f…c91e</span>
+                <span className="font-mono text-[var(--accent-text)]">PYNEX</span>
               </div>
               <div className="grid grid-cols-2 gap-2">
                 <div className="flex items-center gap-2 p-2.5 rounded-xl bg-[var(--surface-1)] border border-[var(--border)]">
