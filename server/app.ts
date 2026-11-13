@@ -6,7 +6,7 @@ export const PYNEX_CONFIG = {
     name: 'PYNEX',
     ticker: 'PYNEX',
     environment: 'mainnet',
-    tokenCA: '0xe061b8d68423a02c8a10bada7b3b8393953956ae',
+    tokenCA: '0xc9fc84eb73bb67a34b6300bce7641c543e1d0d3a',
     xUrl: 'https://x.com/PynexAgent',
     buyUrl: '/app/?t=PYNEX',
     chartUrl: '/app/?t=PYNEX',
@@ -14,7 +14,7 @@ export const PYNEX_CONFIG = {
   },
   token: {
     configured: true,
-    label: '0xe061b8d68423a02c8a10bada7b3b8393953956ae',
+    label: '0xc9fc84eb73bb67a34b6300bce7641c543e1d0d3a',
     showCopy: true,
     showBuy: true,
     showChart: true,
