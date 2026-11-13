@@ -31,7 +31,7 @@ export const PYNEX_CONFIG = {
     registry: '0x52078DE0B7F2372747EE5ae1d0C1f0d51460f287' as Address,
     executor: '0xC7bdCc9106019487488855A0379C1E3Cd82C51f4' as Address,
     faucet: null,
-    holderToken: '0xe061b8d68423a02c8a10bada7b3b8393953956ae' as Address,
+    holderToken: '0xc9fc84eb73bb67a34b6300bce7641c543e1d0d3a' as Address,
     holderChainId: 4663,
   },
   networks: [
@@ -133,7 +133,7 @@ const FALLBACK_TOKENS = [
     liquidityUsd: 18400000,
   },
   {
-    address: '0xe061b8d68423a02c8a10bada7b3b8393953956ae',
+    address: '0xc9fc84eb73bb67a34b6300bce7641c543e1d0d3a',
     chainId: 4663,
     symbol: 'PYNEX',
     name: 'PYNEX Agent',
@@ -210,7 +210,7 @@ const FALLBACK_DISCOVER_ITEMS = [
   {
     chainId: 4663,
     network: 'Robinhood',
-    address: '0xe061b8d68423a02c8a10bada7b3b8393953956ae',
+    address: '0xc9fc84eb73bb67a34b6300bce7641c543e1d0d3a',
     symbol: 'PYNEX',
     name: 'PYNEX Agent',
     decimals: 18,
